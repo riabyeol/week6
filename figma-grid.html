@@ -6,24 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/normalize.css" />
     <link rel="stylesheet" href="assets/styles/figma-grid.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+    </style>
   </head>
   <body>
-    <header>
-      <img src="assets/images/Frame.svg" alt="logo" />
-      <p>HYDRA</p>
-    </header>
-    <nav>
-      <ul>
-        <li>ABOUT</li>
-        <li>SERVICES</li>
-        <li>TECHNOLOGIES</li>
-        <li>HOW TO</li>
-      </ul>
-      <input type="button" value="CONTACT US" />
-      <input type="button" value="JOIN HYDRA" />
-    </nav>
-    <main>
-      <h1>Dive Int oThe Depth Of Virtual Reality</h1>
+    <div class="head-container">
+      <header class="header">
+        <img src="assets/images/Frame.svg" alt="logo" />
+        <img class="name" src="assets/images/Name-frame.svg" alt="name" />
+      </header>
+      <nav class="nav">
+        <ul>
+          <li>ABOUT</li>
+          <li>SERVICES</li>
+          <li>TECHNOLOGIES</li>
+          <li>HOW TO</li>
+        </ul>
+        <input class="button contact" type="button" value="CONTACT US" />
+        <input class="button join" type="button" value="JOIN HYDRA" />
+      </nav>
+    </div>
+
+    <!-- <main>
+      <h1>Dive Into The Depth Of Virtual Reality</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore nisl tincidunt eget. Lectus mauris
@@ -33,6 +39,6 @@
       <img
         src="assets/images/pexels-michelangelo-buonarroti-8728382 1.png"
         alt="women in vr glasses" />
-    </main>
+    </main> -->
   </body>
 </html>
