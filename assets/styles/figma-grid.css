@@ -7,20 +7,23 @@ body {
   grid-template-rows: 100px;
   gap: 10px 5px;
   border: 1px dashed black;
-  justify-content: center;
   padding: 20px;
 }
+
 .logo {
   width: 102px;
   height: 103px;
   flex-shrink: 0;
-  border: 1px dashed red;
+  vertical-align: middle;
 }
 .name {
   width: 76px;
   height: 46px;
   flex-shrink: 0;
-  border: 1px dashed red;
+  vertical-align: middle;
+}
+.header {
+  align-content: center;
 }
 nav ul {
   display: grid;
@@ -35,7 +38,6 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  border: 1px dashed red;
 }
 .about {
   width: 46px;
