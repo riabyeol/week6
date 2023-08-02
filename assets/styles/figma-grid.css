@@ -3,7 +3,7 @@ body {
 }
 .head-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 30% 40% 30%;
   grid-template-rows: 100px;
   gap: 10px 5px;
   border: 1px dashed black;
@@ -66,7 +66,6 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  border: 1px dashed red;
 }
 .contact {
   border: 3px solid white;
@@ -75,4 +74,53 @@ li {
 }
 .join {
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border: 0;
+}
+.build {
+  width: 214px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border: 0;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.main-text {
+  padding: 30px;
+}
+h1 {
+  width: 456px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+span {
+  background: linear-gradient(156deg, #c0b7e8 0%, #8176af 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  width: 450px;
+  height: 72px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 66px;
+  margin-top: 36px;
+}
+.image {
+  width: 490px;
+  height: 426px;
+  flex-shrink: 0;
+  border-radius: 100px 100px 100px 240px;
+  background: #a3a3a3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
