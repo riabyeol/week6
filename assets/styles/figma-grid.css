@@ -6,7 +6,7 @@ body {
   grid-template-columns: 30% 30% 40%;
   grid-template-rows: 100px;
   gap: 10px 5px;
-  border: 1px dashed black;
+  margin-bottom: 40px;
   padding: 20px;
 }
 
@@ -100,7 +100,7 @@ li {
   padding: 30px;
 }
 h1 {
-  width: 456px;
+  width: 4560x;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 46px;
