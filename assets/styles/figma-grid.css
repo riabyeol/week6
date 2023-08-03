@@ -3,7 +3,7 @@ body {
 }
 .head-container {
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% 30% 40%;
   grid-template-rows: 100px;
   gap: 10px 5px;
   border: 1px dashed black;
@@ -24,6 +24,10 @@ body {
 }
 .header {
   align-content: center;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 nav ul {
   display: grid;
@@ -66,6 +70,7 @@ li {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 20px;
 }
 .contact {
   border: 3px solid white;
