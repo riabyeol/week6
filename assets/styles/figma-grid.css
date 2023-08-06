@@ -126,6 +126,10 @@ p {
   margin-bottom: 66px;
   margin-top: 36px;
 }
+.build-arrow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .image {
   width: 490px;
   height: 426px;
