@@ -154,26 +154,34 @@ footer ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-
-  border: 1px solid red;
+  list-style-type: none;
+  gap: 10px;
 }
-
 .address {
   display: grid;
   grid-template-columns: 1fr 4fr;
   width: 90%;
   height: 167px;
-  border: 1px solid red;
+  margin-left: -30px;
+}
+.location {
+  width: 440px;
+}
+.phone {
+  width: 370px;
+  padding-left: 60px;
+}
+.mail {
+  width: 460px;
 }
 .icon {
   width: 70px;
   height: 70px;
-  margin-top: 10px;
-  border: 1px solid red;
+  margin-top: 50px;
 }
-/*text {
-  vertical-align: middle;
-}*/
+.text {
+  margin-top: 45px;
+}
 h2 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
@@ -185,7 +193,6 @@ h2 {
 }
 .p {
   margin-top: 0;
-
   padding-bottom: 0;
   width: 340px;
 }
